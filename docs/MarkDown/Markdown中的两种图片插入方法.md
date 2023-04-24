@@ -1,10 +1,8 @@
-# Markdown中两种插入图片的方法
-
 # 目前找到两种插入方法
 
 **为方便图片可以随时被访问到，直接访问GitHub库获取图片**
 
-库url：https://github.com/Minghaoox/pics  访问时需要点开图片，点击download，获取raw链接
+库url：https://github.com/Minghaoox/pics，访问时需要点开图片，点击download，获取raw链接
 
 ------
 

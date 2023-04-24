@@ -1,42 +1,66 @@
-# test
 # Git笔记
 
 push为同步文件到远端，pull为拉取远端文件至本地。
 
 下文以正在进行的blog项目为例子，记录git流程。
 
-**生成静态文件**
+## 生成静态文件
 
+```powershell
 npm run build
+# 这一步只针对自己的Docusaurus2项目
+```
 
-**进入生成的文件夹**
+## 进入生成的文件夹
 
+```bash
 cd build
+# 进入编译后的项目文件夹
+```
 
+## 初始化Git环境
+
+```bash
 git init
+```
 
+## 切换本地分支
+
+```bash
 git branch -m main
+# 这里的main代表分支名称，切换到自己需要的分支
+```
 
+## 将当前文件夹的所有文件添加至本地仓库
+
+```bash
 git add .
+# '.'表示所有文件
+```
 
+## 提交本地更改
+
+```bash
 git commit -m 'deploy'
+# 'deploy'为备注,按照自己的需求填写
+```
 
-**与远程库建立连接**
+## 发布到GitHub仓库
 
-git push --set-upstream git@github.com:Minghaoox/mypage.git main
+```
+git push -f git@github.com:Minghaoox/minghaoox.github.io.git
+```
 
-（补充这一条的原因是：在用git push -f的时候经常出现报错，是因为没有跟远端仓库进行连接，这条指令支持连接远端仓库）
+## 与远程库建立连接并发布
 
-**发布到GitHub仓库**
+```bash
+git push --set-upstream git@github.com:Minghaoox/minghaoox.github.io.git main
+```
 
-git push -f git@github.com:Minghaoox/mypage.git
+补充这一条的原因是：在用 `git push -f` 的时候经常出现报错，是因为没有跟远端仓库进行连接，这条指令支持连接远端仓库
 
+## 强制push
 
-
-**存在问题**
-
-1. 如果远端存在一个现有版本的文件，本地存在远端没有的新增文件的话，会导致push失败；
-
-   解决方法：强制push：git push --force git@github.com:Minghaoox/mypage.git main
-
-2. git push -f无法连接远程仓库的问题始终存在，一直智能使用git push --set-upstream的方式完成push；
+```bash
+git push --force git@github.com:Minghaoox/minghaoox.github.io.git main
+```
