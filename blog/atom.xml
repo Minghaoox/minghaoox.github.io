@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://minghaoox.github.io/blog</id>
+    <title>David 💌 Miao Blog</title>
+    <updated>2023-04-23T07:21:43.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://minghaoox.github.io/blog"/>
+    <subtitle>David 💌 Miao Blog</subtitle>
+    <icon>https://minghaoox.github.io/img/miao/猫咪-4.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Daily 4/22/2023]]></title>
+        <id>https://minghaoox.github.io/blog/Daily 4/22/2023</id>
+        <link href="https://minghaoox.github.io/blog/Daily 4/22/2023"/>
+        <updated>2023-04-23T07:21:43.000Z</updated>
+        <summary type="html"><![CDATA[Blog]]></summary>
+        <content type="html"><![CDATA[<p>Blog</p><p>Blog</p><p>Blog</p><p>Blog</p><p>Blog</p><p>Blog</p><p>Blog</p><p>Blog</p>]]></content>
+        <author>
+            <name>David Bear</name>
+            <uri>https://github.com/Minghaoox</uri>
+        </author>
+    </entry>
+</feed>

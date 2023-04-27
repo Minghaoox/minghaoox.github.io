@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9829],{1031:e=>{e.exports=JSON.parse('{"label":"\u786c\u4ef6","permalink":"/docs/tags/\u786c\u4ef6","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Linux/Raspberry","title":"Raspberry","description":"Raspberry \u4e0a\u624b\u6307\u5357","permalink":"/docs/Linux/Raspberry"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5552],{6162:e=>{e.exports=JSON.parse('{"label":"Vue","permalink":"/docs/tags/vue","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Programming/Vue \u7b14\u8bb0","title":"Vue \u7b14\u8bb0","description":"Vue \u6307\u5357","permalink":"/docs/Programming/Vue \u7b14\u8bb0"}]}')}}]);

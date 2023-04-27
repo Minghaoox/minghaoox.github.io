@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2866],{2152:e=>{e.exports=JSON.parse('{"label":"CSS","permalink":"/docs/tags/css","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Programming/CSS Learnning","title":"CSS Learnning","description":"CSS \u5b66\u4e60\u7b14\u8bb0","permalink":"/docs/Programming/CSS Learnning"}]}')}}]);

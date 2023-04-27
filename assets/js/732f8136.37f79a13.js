@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4541],{1779:e=>{e.exports=JSON.parse('{"label":"MDX","permalink":"/docs/tags/mdx","allTagsPath":"/docs/tags","count":1,"items":[{"id":"MarkDown/MDX \u5b66\u4e60","title":"MDX \u5b66\u4e60","description":"MDX \u6307\u5357","permalink":"/docs/MarkDown/MDX \u5b66\u4e60"}]}')}}]);
