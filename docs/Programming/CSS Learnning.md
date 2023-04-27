@@ -6,8 +6,7 @@ image: https://raw.githubusercontent.com/Minghaoox/pics/main/myicon.png
 tags: [编程, CSS]
 ---
 
-# CSS 学习笔记
-
+## CSS 学习笔记
 
 ### 学习网站：
 

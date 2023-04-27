@@ -1,4 +1,4 @@
-# CLPSO对比PSO
+## CLPSO中对比于PSO的学习策略改进
 
 1. 粒子不再使用自身的 $pbest$ 和 $gbest$ 来规划飞行速度，所有粒子的 $pbest$ 都可能被用作指导粒子飞行的粒子样本；
 
@@ -25,7 +25,7 @@ f_i=[f_i(1), f_i(2), ..., f_i(D)]
 $$
 定义了第 $i$ 个粒子维度 $d$ 应该学习哪个粒子的 $pbest$ ， $pbest(fi(d) d)$ 可以是包括自己在内的任何粒子相应维度 $(d)$ 的 $pbest$ 值。
 
-## 如何确定 $pbest(fi(d) d)$ ，如何求 $fi(d)$ 
+## 如何确定 $pbest(fi(d) d) $ ，如何求 $fi(d)$ 
 
 对于粒子 $i$ 的 $d$ 个维度，算法提供 $d$ 个随机值，如果这个随机值大于粒子 $i$ 在该维度的 $Pc$ （交叉概率或学习概率）值，则向自身的 $pbest$ 学习；若随机值小于 $Pc$ 值，则向其他粒子的 $pbest$ 学习。在向其他粒子学习时，根据以下条件判断学习对象：
 
@@ -52,7 +52,7 @@ $$
 
 ![Pc图像(0,0.5)](https://raw.githubusercontent.com/Minghaoox/pics/main/PSO/CLPSO/Pc图像(0%2C0.5).png)
 
-**CLPSO算法流程图**
+## **CLPSO算法流程图**
 
 ![算法流程图](https://raw.githubusercontent.com/Minghaoox/pics/main/PSO/CLPSO/算法流程图.png)
 
@@ -60,13 +60,13 @@ $$
 
 ![参数解释](https://raw.githubusercontent.com/Minghaoox/pics/main/PSO/CLPSO/参数解释.png)
 
-**学习策略**
+## **学习策略**
 
 PSO使用 $pbest$ 和 $gbest$ 学习， $pbest$ 为个体历史最优， $gbest$ 为当前全局历史最优；
 
-CLPSO使用 $pbest(fi(d) d)$ 学习，可以向包括自己在内的所有粒子学习，由 $Pc$ 值决定。
+CLPSO使用 $pbest(fi(d) d)$ 学习，可以向包括自己在内的所有粒子学习，由 $Pc$ 值决定。，
 
-**可搜索范围**
+## **可搜索范围**
 
 ![可搜索范围](https://raw.githubusercontent.com/Minghaoox/pics/main/PSO/CLPSO/可搜索范围.png)
 
@@ -86,7 +86,7 @@ PSO搜索范围就是粒子的位置和 $gbest$ ， $pbest$ 差的和；
 
 CLPSO的搜索范围是所有粒子的历史最优位置和该粒子当前位置中，绝对值最大的差
 
-**跳出局部最优的能力**
+## **跳出局部最优的能力**
 
 CLPSO因为在停止进化几代后，会主动的随机向其他粒子的 $pbest$ 学习，可能借助这个变量跳出局部最优；
 

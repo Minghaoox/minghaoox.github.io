@@ -1,4 +1,4 @@
-# PSO及Pytorch调研
+## 任务
 
 使用ChatGPT调研一下PSO领域的最新进展、优化器领域的最新进展，并分享一下ChatGPT的搜索过程
 

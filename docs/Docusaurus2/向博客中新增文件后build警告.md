@@ -1,6 +1,6 @@
-# npm run build出现warning
+## npm run build出现warning
 
-## warning内容
+### warning内容
 
 > ```npm
 > npm run build
@@ -22,7 +22,7 @@
 
 **这可能是因为项目是一个全新的项目**，或者在一个空的分支上进行工作
 
-## 😶‍🌫️解决方法
+### 😶‍🌫️解决方法
 
 1. 进入项目目录，使用以下命令创建一个新分支：
 
@@ -54,7 +54,7 @@ git merge new-branch
 
 
 
-## 后续测试
+### 后续测试
 
 因为上面的解决方案（From ChatGPT）主要思想是将自己的更改提交到Git中（这里应该是本地库的意思），所以在保证本地存在一个库（即解决方案中的`1`）的前提下，先尝试`git add .`，后提交`git commit -m "description"`。
 
